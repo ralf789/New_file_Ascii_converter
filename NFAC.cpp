@@ -29,6 +29,7 @@ int main()
 
 	
 	//create file
+	fputs("CONVERTION TO ASCII\n\n\n,fh);
 	static const char* nf = "ascii_ans.txt";
 	FILE* fh = fopen(nf, "w");
 	//print answer in file
